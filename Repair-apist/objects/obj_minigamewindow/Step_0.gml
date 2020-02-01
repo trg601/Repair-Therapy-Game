@@ -47,9 +47,10 @@ draw_set_alpha(1);
 draw_sprite_ext(spr_minigame_window,0,viewX,viewY+7,1,1,0,c_white,mAlpha);
 
 draw_set_alpha(mAlpha);
-var time = global.game_timer/room_speed;
+var time = alarm[5]/room_speed;
 if time < 0 time = 0;
-draw_text(viewX+10,viewY-30,"Time Remaining: "+string(time)+"s");
+draw_set_font(fnt_default);
+draw_text(viewX+10,viewY-45,"Time Remaining: "+string(time)+"s");
 draw_set_alpha(1);
 
 surface_reset_target();
@@ -65,12 +66,12 @@ if global.in_minigame{
 		returnToShop();
 	}
 	
-	if global.game_timer != -1 && mAlpha >= 1{
+	/*if global.game_timer != -1 && mAlpha >= 1{
 		global.game_timer --;
 		if global.game_timer <= 0{
 			global.game_timer = -1;
 			global.game_win = false;
 			returnToShop();
 		}
-	}
+	}*/
 }

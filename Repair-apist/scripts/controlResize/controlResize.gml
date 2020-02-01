@@ -31,3 +31,5 @@ var cx = global.viewWidth/2;
 var cy = global.viewHeight/2;
 var vm = matrix_build_lookat(cx,cy,-1000,cx,cy,0,0,1,0);
 camera_set_view_mat(cam.camera,vm);
+
+if instance_exists(obj_textbox) with(obj_textbox) alarm[6]=1;

@@ -19,6 +19,7 @@ if global.miniGameAlpha{
 
 shop_time = false;
 if room=rm_shop shop_time = true;
+robot = noone;
 has_robot = true;
 robot_name = "";
 robot_spr = spr_dia_robot;
@@ -32,3 +33,7 @@ if global.cRobotName != ""{
 
 controlResize();
 #endregion
+
+event_inherited();
+myName = "You";
+myVoice = snd_talk1;
