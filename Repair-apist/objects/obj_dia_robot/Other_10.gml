@@ -3,11 +3,11 @@ reset_dialogue_defaults();
 var i = 0;
 myText[i]       = "...Are you the repair-apist?";
 mySpeaker[i]    = id;
-        
+
 i++;
-myText[i]       = "bitch ass";
-mySpeaker[i]    = id;
-myEmote[i]		= 1;
+myText[i]       = "Yes, I am! How may I assist you?";
+mySpeaker[i]    = obj_control;
+myEmotion[i]	= 1;
         
 i++;
 myText[i]       = "...";

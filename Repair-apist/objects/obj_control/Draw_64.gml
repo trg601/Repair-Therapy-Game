@@ -9,8 +9,10 @@ if shop_time{
 draw_sprite(spr_dia_player,emote,gW * 0.25,gH);
 
 if has_robot{
-	draw_sprite(robot_spr,robot_subimage,gW * robot_x,gH);
-	
+	if instance_exists(robot){
+		robot_subimage = robot.emote;
+		draw_sprite(robot_spr,robot_subimage,gW * robot_x,gH);
+	}
 }
 
 

@@ -37,3 +37,4 @@ controlResize();
 event_inherited();
 myName = "You";
 myVoice = snd_talk1;
+emote = 0;
