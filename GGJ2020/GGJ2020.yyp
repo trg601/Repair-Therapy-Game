@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "43f24ebc-5e12-4e25-a047-bd3d1663b438",
+            "Value": {
+                "id": "7c81f40e-3f8e-4f00-9948-b0ff5f69bc39",
+                "resourcePath": "objects\\minigame_window\\minigame_window.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5da1bff6-b5c8-461a-bcd5-589bbaf93047",
             "Value": {
                 "id": "1a3ef3f7-7dfd-4b04-ae17-d1f2c2415550",
