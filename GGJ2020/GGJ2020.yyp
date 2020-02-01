@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "2e55b5c0-c25e-475f-9243-91aae0f55ec5",
+            "Value": {
+                "id": "b3c521f5-bf3f-401f-9c02-7017aa7f5d7f",
+                "resourcePath": "objects\\obj_control\\obj_control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3592595e-dbb3-4742-a701-42ae940f3a1a",
             "Value": {
                 "id": "e1c2de58-5714-445e-81d4-973185813816",
@@ -63,6 +71,14 @@
             }
         },
         {
+            "Key": "3b135b9c-4b51-43c5-bd04-005907a02a43",
+            "Value": {
+                "id": "deffd01a-dfdc-4f4c-bf70-475634f7af92",
+                "resourcePath": "sprites\\spr_shop_background\\spr_shop_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3b3dfe11-618d-4c14-b92a-e4beefea2256",
             "Value": {
                 "id": "6334c282-de16-4682-b070-cbda5c36f8a6",
@@ -74,7 +90,7 @@
             "Key": "43f24ebc-5e12-4e25-a047-bd3d1663b438",
             "Value": {
                 "id": "7c81f40e-3f8e-4f00-9948-b0ff5f69bc39",
-                "resourcePath": "objects\\minigame_window\\minigame_window.yy",
+                "resourcePath": "objects\\obj_minigamewindow\\obj_minigamewindow.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -95,11 +111,43 @@
             }
         },
         {
+            "Key": "6cf91c11-9f51-4846-85cb-8be199ff0162",
+            "Value": {
+                "id": "f93750c5-2eb6-4303-a2f7-0c75e34aa662",
+                "resourcePath": "sprites\\spr_player_dialogue\\spr_player_dialogue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "75c4bfa4-023f-47cc-af5d-cc5ba10a289b",
+            "Value": {
+                "id": "c9a61132-eabc-4451-819e-c634899d0835",
+                "resourcePath": "objects\\obj_dialogue\\obj_dialogue.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8770f0e3-75d9-4e7c-bb9b-18e9cd6cd521",
+            "Value": {
+                "id": "733b8f0a-eb8b-4a6c-b5af-dff8f7399ba9",
+                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "6c2d0f1b-510d-4315-a494-312ee2261e0a",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa5ca138-a3c1-499b-b38a-48998c6b3fc7",
+            "Value": {
+                "id": "e8510948-6ca7-41ec-ad26-2f743d4e9f17",
+                "resourcePath": "scripts\\controlResize\\controlResize.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -170,8 +218,16 @@
             "Key": "ec3012bd-d499-4063-b55e-ed2f9b23896e",
             "Value": {
                 "id": "05720440-56ff-46ce-88e0-3d31ebeee87b",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_shop\\rm_shop.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f3335a72-5c87-462b-a6e9-7fec9b8766bc",
+            "Value": {
+                "id": "229ae861-45c5-413c-9b58-23a0ffc2e314",
+                "resourcePath": "views\\f3335a72-5c87-462b-a6e9-7fec9b8766bc.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -200,7 +256,7 @@
         }
     ],
     "script_order": [
-        
+        "aa5ca138-a3c1-499b-b38a-48998c6b3fc7"
     ],
     "tutorial": ""
 }

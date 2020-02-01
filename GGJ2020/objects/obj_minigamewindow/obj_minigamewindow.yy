@@ -2,7 +2,7 @@
     "id": "43f24ebc-5e12-4e25-a047-bd3d1663b438",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "minigame_window",
+    "name": "obj_minigamewindow",
     "eventList": [
         
     ],
