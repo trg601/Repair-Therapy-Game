@@ -1,0 +1,2 @@
+myName = "Rob"
+startMsg = false;
