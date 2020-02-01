@@ -41,6 +41,15 @@
         {
             "Key": "164ea10c-a8a3-4971-9662-b9645aae1522",
             "Key": "12c6465b-e697-48c3-97a5-abb4448e425a",
+            "Key": "1cf3a105-de2a-4e3f-baad-644aa3b9f99c",
+            "Value": {
+                "id": "1e16522d-7560-4538-86d1-ea683571ee98",
+                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "21892992-aeeb-4b46-87a2-54d0a51ce6ff",
             "Value": {
                 "id": "a2f3900b-6926-4da8-931b-f86382082a9d",
                 "resourcePath": "objects\\obj_calmzone\\obj_calmzone.yy",
@@ -232,6 +241,14 @@
                 "id": "871e9426-4a3d-49c4-984c-182d16b72b3f",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d392b6ac-7a5e-40c0-9b5a-d04dc503bf6e",
+            "Value": {
+                "id": "8a4fb6df-2403-4dd7-a30b-6578627c39eb",
+                "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
