@@ -16,3 +16,4 @@ window_set_position(display_get_width()/2-global.winWidth/2, display_get_height(
 display_set_gui_maximize();
 
 if instance_exists(obj_camera) with(obj_camera) event_user(0);
+if instance_exists(obj_minigamewindow) with(obj_minigamewindow) event_user(0);
