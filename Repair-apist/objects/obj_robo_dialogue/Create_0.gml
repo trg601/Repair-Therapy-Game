@@ -1,2 +1,0 @@
-myName = "Rob"
-startMsg = false;
