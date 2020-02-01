@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "43f24ebc-5e12-4e25-a047-bd3d1663b438",
-            "Value": {
-                "id": "7c81f40e-3f8e-4f00-9948-b0ff5f69bc39",
-                "resourcePath": "objects\\minigame_window\\minigame_window.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5da1bff6-b5c8-461a-bcd5-589bbaf93047",
             "Value": {
                 "id": "1a3ef3f7-7dfd-4b04-ae17-d1f2c2415550",
@@ -91,6 +83,22 @@
             "Value": {
                 "id": "1ddde113-78a2-46aa-a569-c29bb610794f",
                 "resourcePath": "views\\5e1d4027-6595-4ad2-b325-1395d6dbdaf0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "79811f69-cee4-4235-bbd2-02cdd88539ce",
+            "Value": {
+                "id": "c2b400fc-0983-4217-a44e-db7aa6a14062",
+                "resourcePath": "sprites\\spr_good_zone\\spr_good_zone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "83dae001-2187-4ae0-84bb-bab0fc21094c",
+            "Value": {
+                "id": "817fe843-b31c-41f7-879c-d5e291961fab",
+                "resourcePath": "views\\83dae001-2187-4ae0-84bb-bab0fc21094c.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -180,6 +188,14 @@
                 "id": "dca0c9e3-6468-480b-ae91-516d8ed62c88",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fbb23f9e-e383-4dc0-b178-d3a7a50c0e1f",
+            "Value": {
+                "id": "279507b8-4755-4797-ad27-1a072a600a3b",
+                "resourcePath": "rooms\\minigame_Breathe\\minigame_Breathe.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
