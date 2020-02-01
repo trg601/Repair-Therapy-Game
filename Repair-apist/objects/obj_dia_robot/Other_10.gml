@@ -7,6 +7,7 @@ mySpeaker[i]    = id;
 i++;
 myText[i]       = "bitch ass";
 mySpeaker[i]    = id;
+myEmote[i]		= 1;
         
 i++;
 myText[i]       = "...";

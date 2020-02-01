@@ -4,6 +4,7 @@ draw_sprite_ext(dialogue_box, 0, pos_x,pos_y, scale,scale, 0, c_white, 1);
 //Draw portrait
 if(portrait[page] != -1){
     draw_sprite_ext(portrait[page], emotion[page], pos_x-portraitWidth, pos_y, scale,scale, 0, c_white, 1);
+obj_control.emote = emotion[page];
  
     //---------Idle Animated Portrait
 if(type[page] == 1 or charCount >= str_len) {
