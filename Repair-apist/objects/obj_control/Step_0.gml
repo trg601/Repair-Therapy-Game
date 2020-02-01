@@ -13,3 +13,11 @@ if keyboard_check_pressed(vk_space) { //load minigame
 if keyboard_check_pressed(ord("R")){
 	room_restart();
 }
+
+if keyboard_check_pressed(vk_f6){
+	has_robot = true;
+}
+
+if has_robot && robot == noone{
+	robot = instance_create_layer(0,0,"Instances",obj_dia_robot);
+}

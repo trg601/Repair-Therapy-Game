@@ -13,7 +13,7 @@
 if(instance_exists(obj_textbox)){ exit; }
 
 //Create the Textbox
-var _textbox = instance_create_layer(x,y, "Text", obj_textbox);
+var _textbox = instance_create_layer(x,y, "Instances", obj_textbox);
 with(obj_textbox) var _dcol = default_col;
 
 //Get Arguments
@@ -69,7 +69,7 @@ with(_textbox){
 	
 	//Speaker's Variables
 	i = 0; repeat(text_len){
-		portrait[i]			= _speaker[i].myPortrait;
+		portrait[i]			= -1;//_speaker[i].myPortrait;
 		voice[i]			= _speaker[i].myVoice;
 		font[i]				= _speaker[i].myFont;
 		name[i]				= _speaker[i].myName;
