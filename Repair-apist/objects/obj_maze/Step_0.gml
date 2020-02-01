@@ -54,4 +54,6 @@ if (shard >= 6) {
 //CLOSE WINDOW (Game won): 
 if (place_meeting(x, y, obj_finish)) {
 	//obj_finish.image_speed = 15;
+	global.game_win = true;
+	returnToShop();
 }
