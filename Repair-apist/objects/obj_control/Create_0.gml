@@ -5,6 +5,7 @@ global.winWidth = global.defWidth;
 global.winHeight = global.defHeight;
 global.viewWidth = global.winWidth;
 global.viewHeight = global.winHeight;
+global.viewScale = 1;
 
 global.in_minigame = false;
 view_enabled = true;

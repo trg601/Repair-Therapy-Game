@@ -207,14 +207,6 @@
             }
         },
         {
-            "Key": "46b0456c-10e8-4b0b-9e87-cc047d526119",
-            "Value": {
-                "id": "4f45c219-d59b-439c-aa58-6b5142b5f2f0",
-                "resourcePath": "sprites\\spr_breathe\\spr_breathe.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "45d832c1-7242-4175-a5ef-f7b1e6755d65",
             "Value": {
                 "id": "1770cc9b-1d10-4140-945c-81c7fae31b4f",

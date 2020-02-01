@@ -1,0 +1,1 @@
+draw_text(mouse_x+5,mouse_y+5,string(mouse_x)+"\n"+string(mouse_y));
