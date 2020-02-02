@@ -2,9 +2,9 @@
 
 
 
-if (y > 672){
+if (y > 572){
 	dir_b = -2;
-}else if (y < 206){
+}else if (y < 106){
 	dir_b = 2;
 }
 
