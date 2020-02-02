@@ -41,7 +41,7 @@ if global.in_minigame {
 	tAlpha = 1;
 }
 
-alarm[0] = 1;
+alarm[0] = 5;
 alarm[5] = global.game_timer;
 
 surface_gui = surface_create(1024,768);

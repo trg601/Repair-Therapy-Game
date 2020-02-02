@@ -655,6 +655,14 @@
             }
         },
         {
+            "Key": "95eeeb78-8454-4379-84d9-8fc29299f683",
+            "Value": {
+                "id": "5481e93a-d7fe-48e7-9dfc-620d1f3fbc8a",
+                "resourcePath": "sprites\\spr_dia_ruby\\spr_dia_ruby.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "96edc520-b376-4147-954b-379a9621fb07",
             "Value": {
                 "id": "262465d9-657f-4460-8d8c-56b506f20377",

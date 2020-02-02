@@ -19,17 +19,20 @@ if global.miniGameAlpha{
 
 shop_time = false;
 if room=rm_shop shop_time = true;
-robot = noone;
-has_robot = true;
+
+global.robot = noone;
 robot_name = "";
 robot_spr = spr_dia_robot;
 robot_subimage = 0;
-robot_x = 0.75;
+robot_x = 1.5;
 if global.cRobotName != ""{
 	robot_name = global.cRobotName;
 	robot_spr = global.cRobotSpr;
-	
+	has_robot = true;
+	robot_x = 0.75;
 }
+has_robot = false;
+if room=rm_shop has_robot = true;
 
 controlResize();
 #endregion
